@@ -6,7 +6,8 @@ import { AddHouse } from "./Components/AddHouse/AddHouse";
 function App() {
   return (
     <div className="App">
-          <button className="toggleForm">
+      <h1>Houses for rent</h1>
+          <button className="toggleForm"> Add House
         {/* Show text Add House or Show Rentals based on state */}
       </button>
       {/* Show component based on state */}
